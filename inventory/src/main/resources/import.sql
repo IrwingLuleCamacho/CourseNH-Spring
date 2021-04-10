@@ -1,0 +1,5 @@
+INSERT INTO inventories (date, description, quantity, price, product_id, type) VALUES(NOW(), 'Existencia Inicial',  20, 120, 1, 'I')
+INSERT INTO inventories (date, description, quantity, price, product_id, type) VALUES(NOW(), 'Compra F001-1234',  10, 120, 1, 'I')
+INSERT INTO inventories (date, description, quantity, price, product_id, type) VALUES(NOW(), 'Venta B001-1234',  25, 140, 1, 'S')
+INSERT INTO inventories (date, description, quantity, price, product_id, type) VALUES(NOW(), 'Compra F001-1235',  20, 120, 1, 'I')
+INSERT INTO inventories (date, description, quantity, price, product_id, type) VALUES(NOW(), 'Venta B001-1235',  20, 1350, 1, 'S')
